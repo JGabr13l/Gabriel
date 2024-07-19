@@ -72,6 +72,7 @@ Static Routing In IPv4 and IPv6:
 ip route 0.0.0.0  0.0.0.0 10.m.1.4
 ipv6  route  ::/0   face:cafe:face:cafe::aaaa
 
+!@@@LeafSwitch coretaas
 config t
    hostname COREtaas32
    enable secret pass
